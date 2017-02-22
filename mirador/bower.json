@@ -1,0 +1,36 @@
+{
+  "name": "mirador",
+  "version": "2.1.2",
+  "homepage": "https://github.com/ProjectMirador/mirador",
+  "authors": [
+    "aeschylus <scipioaffricanus@gmail.com>"
+  ],
+  "description": "An image viewer for IIIF resources.",
+  "main": "mirador.js",
+  "keywords": [
+    "IIIF"
+  ],
+  "license": "Apache 2",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "https://code.jquery.com/jquery-3.1.1.min.js",
+    "jquery-ui": "*",
+    "jquery.scrollTo": "~1.4.12",
+    "mousetrap": "~1.4.6",
+    "URIjs": "https://github.com/medialize/URI.js.git#~1.13.2",
+    "paper": "git://github.com/paperjs/paper.js.git#*",
+    "sanitize-html": "~1.11.4",
+    "spectrum": "git://github.com/bgrins/spectrum.git#*",
+    "qtip2": "~2.2.1"
+  },
+  "resolutions": {
+    "jquery": ">=1.7.2"
+  }
+}
