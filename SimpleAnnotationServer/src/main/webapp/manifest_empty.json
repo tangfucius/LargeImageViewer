@@ -1,0 +1,69 @@
+
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "http://dev.llgc.org.uk/iiif/examples/newspapers/1861-01-02.json",
+            "@type": "sc:Manifest",
+            "label": "Potter's electric news (1861-01-02)", 
+				"navDate":"1861-01-02T00:00:00Z",
+            "metadata": [
+        
+            {
+            "label":[
+            { "@value":"Publisher", "@language": "en"},
+            { "@value":"Cyhoeddwr", "@language": "cy-GB"}
+            ],
+            "value": "Joseph Potter"
+            },
+        
+            {
+            "label": "Place of Publication",
+            "value": "Haverfordwest"
+            },
+        
+            {
+            "label":[
+            { "@value":"Frequency", "@language": "en"},
+            { "@value":"Amlder", "@language": "cy-GB"}
+            ],
+            "value": "Weekly"
+            },
+        
+            {
+            "label": "Language",
+            "value": "eng"
+            },
+        
+        
+        {
+        "label": "Subject",
+        "value": [
+        
+            "Wales Newspapers 19th century",
+            "Haverfordwest (Wales) Newspapers",
+            "Pembrokeshire (Wales) Newspapers",
+            "Begelly (Wales) Newspapers",
+            "Fishguard (Wales) Newspapers",
+            "Tenby (Wales) Newspapers",
+            "Milford Haven (Wales) Newspapers"
+        ]
+        },
+        {
+        "label":[
+        { "@value":"Repository", "@language": "en"},
+        { "@value":"Ystorfa", "@language": "cy-GB"}],
+        "value":[
+        { "@value":"This content has been digitised by The National Library of Wales", "@language": "en"},
+        { "@value":"Digidwyd y cynnwys hwn gan Lyfrgell Gendlaethol Cymru", "@language": "cy-GB"}
+        ]
+        }
+            ],
+            "within": "http://dams.llgc.org.uk/iiif/newspapers/3100020.json",
+            "sequences": [
+            {
+                "@type": "sc:Sequence",
+                "canvases": [
+                
+                ]
+            }]
+                  }      
+    
