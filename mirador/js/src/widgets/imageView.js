@@ -591,6 +591,8 @@
 
         _this.osd.addHandler('open', function(){
           _this.eventEmitter.publish('osdOpen.'+_this.windowId);
+          console.log("Setting bounds for new OSD viewer");
+          console.log(_this.osdOptions.osdBounds);
           if (_this.osdOptions.osdBounds) {
             var rect = new OpenSeadragon.Rect(_this.osdOptions.osdBounds.x, _this.osdOptions.osdBounds.y, _this.osdOptions.osdBounds.width, _this.osdOptions.osdBounds.height);
             _this.osd.viewport.fitBounds(rect, true);
@@ -651,12 +653,15 @@
 
     updateImage: function(canvasID) {
       var _this = this;
+      this.setBounds();
+      console.log("Bounds set!");
+      var bounds = this.osdOptions.osdBounds;
       if (this.canvasID !== canvasID) {
         this.canvasID = canvasID;
         this.currentImgIndex = $.getImageIndexById(this.imagesList, canvasID);
         this.currentImg = this.imagesList[this.currentImgIndex];
         this.osdOptions = {
-          osdBounds:        null,
+          osdBounds:        bounds,
           zoomLevel:        null
         };
         this.eventEmitter.publish('resetImageManipulationControls.'+this.windowId);
