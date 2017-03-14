@@ -1,0 +1,169 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:Manifest",
+    "sequences": [
+        {
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "label": "[1]",
+                    "@type": "sc:Canvas",
+                    "width": 24000,
+                    "@id": "http://35.164.134.184/loris/CSHL_data/MD657_contrastStretched_8bit_jp2/MD657-F21-2017.02.17-22.40.14_MD657_1_0061_lossless.jp2.tif_contrastStretched_8bit.tif.jp2",
+                    "height": 18000,
+                    "images": [
+                        {
+                            "resource": {
+                                "@type": "dctypes:Image",
+                                "width": 24000,
+                                "@id": "http://35.164.134.184/loris/CSHL_data/MD657_contrastStretched_8bit_jp2/MD657-F21-2017.02.17-22.40.14_MD657_1_0061_lossless.jp2.tif_contrastStretched_8bit.tif.jp2",
+                                "height": 18000,
+                                "format": "image/jpeg",
+                                "service": {
+                                    "tiles": [
+                                        {
+                                            "width": 256,
+                                            "scaleFactors": [
+                                                1,
+                                                2,
+                                                4,
+                                                8,
+                                                16,
+                                                32
+                                            ]
+                                        }
+                                    ],
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "width": 24000,
+                                    "@id": "http://35.164.134.184/loris/CSHL_data/MD657_contrastStretched_8bit_jp2/MD657-F21-2017.02.17-22.40.14_MD657_1_0061_lossless.jp2.tif_contrastStretched_8bit.tif.jp2",
+                                    "height": 18000
+                                }
+                            },
+                            "@id": "http://35.164.134.184/loris/CSHL_data/MD657_contrastStretched_8bit_jp2/MD657-F21-2017.02.17-22.40.14_MD657_1_0061_lossless.jp2.tif_contrastStretched_8bit.tif.jp2",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "http://35.164.134.184/loris/CSHL_data/MD657_contrastStretched_8bit_jp2/MD657-F21-2017.02.17-22.40.14_MD657_1_0061_lossless.jp2.tif_contrastStretched_8bit.tif.jp2"
+                        }
+                    ]
+                },
+                {
+                    "label": "[2]",
+                    "@type": "sc:Canvas",
+                    "width": 24000,
+                    "@id": "http://35.164.134.184/loris/CSHL_data/MD657_contrastStretched_8bit_jp2/MD657-F21-2017.02.17-22.40.14_MD657_2_0062_lossless.jp2.tif_contrastStretched_8bit.tif.jp2",
+                    "height": 18000,
+                    "images": [
+                        {
+                            "resource": {
+                                "@type": "dctypes:Image",
+                                "width": 24000,
+                                "@id": "http://35.164.134.184/loris/CSHL_data/MD657_contrastStretched_8bit_jp2/MD657-F21-2017.02.17-22.40.14_MD657_2_0062_lossless.jp2.tif_contrastStretched_8bit.tif.jp2",
+                                "height": 18000,
+                                "format": "image/jpeg",
+                                "service": {
+                                    "tiles": [
+                                        {
+                                            "width": 256,
+                                            "scaleFactors": [
+                                                1,
+                                                2,
+                                                4,
+                                                8,
+                                                16,
+                                                32
+                                            ]
+                                        }
+                                    ],
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "width": 24000,
+                                    "@id": "http://35.164.134.184/loris/CSHL_data/MD657_contrastStretched_8bit_jp2/MD657-F21-2017.02.17-22.40.14_MD657_2_0062_lossless.jp2.tif_contrastStretched_8bit.tif.jp2",
+                                    "height": 18000
+                                }
+                            },
+                            "@id": "http://35.164.134.184/loris/CSHL_data/MD657_contrastStretched_8bit_jp2/MD657-F21-2017.02.17-22.40.14_MD657_2_0062_lossless.jp2.tif_contrastStretched_8bit.tif.jp2",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "http://35.164.134.184/loris/CSHL_data/MD657_contrastStretched_8bit_jp2/MD657-F21-2017.02.17-22.40.14_MD657_2_0062_lossless.jp2.tif_contrastStretched_8bit.tif.jp2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "metadata": [
+        {
+            "label": [
+                {
+                    "@value": "Publisher",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Cyhoeddwr",
+                    "@language": "cy-GB"
+                }
+            ],
+            "value": "Joseph Potter"
+        },
+        {
+            "label": "Place of Publication",
+            "value": "Haverfordwest"
+        },
+        {
+            "label": [
+                {
+                    "@value": "Frequency",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Amlder",
+                    "@language": "cy-GB"
+                }
+            ],
+            "value": "Weekly"
+        },
+        {
+            "label": "Language",
+            "value": "eng"
+        },
+        {
+            "label": "Subject",
+            "value": [
+                "Wales Newspapers 19th century",
+                "Haverfordwest (Wales) Newspapers",
+                "Pembrokeshire (Wales) Newspapers",
+                "Begelly (Wales) Newspapers",
+                "Fishguard (Wales) Newspapers",
+                "Tenby (Wales) Newspapers",
+                "Milford Haven (Wales) Newspapers"
+            ]
+        },
+        {
+            "label": [
+                {
+                    "@value": "Repository",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Ystorfa",
+                    "@language": "cy-GB"
+                }
+            ],
+            "value": [
+                {
+                    "@value": "This content has been digitised by The National Library of Wales",
+                    "@language": "en"
+                },
+                {
+                    "@value": "Digidwyd y cynnwys hwn gan Lyfrgell Gendlaethol Cymru",
+                    "@language": "cy-GB"
+                }
+            ]
+        }
+    ],
+    "navDate": "1861-01-02T00:00:00Z",
+    "@id": "http://dev.llgc.org.uk/iiif/examples/newspapers/1861-01-02.json",
+    "within": "http://dams.llgc.org.uk/iiif/newspapers/3100020.json",
+    "label": "Potter's electric news (1861-01-02)"
+}
